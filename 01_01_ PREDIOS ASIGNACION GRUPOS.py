@@ -1,6 +1,5 @@
 # CREA UN CAMPO Y CLASIFICA A CADA PREDIO A GRUPO EN FUNCIÓN DEL TAMAÑO DE SUPERFICIE
 import os
-
 import pandas as pd
 import numpy as np
 #os.system ("cls") # borra la pantalla
@@ -30,16 +29,7 @@ choicelist2 = ['<=500','500-1000', '1000-2000', '2000-3000','3000-4000','4000-50
  '2-3 ha', '3-5 ha','5-10 ha','>10 ha']
 datos_df['GRUPO'] = np.select(conditionlist, choicelist, default='Not Specified')
 datos_df['RANGO'] = np.select(conditionlist, choicelist2, default='Not Specified')
-#print(datos_df)
-#rango1=(datos_df[(datos_df.area > 0) & (datos_df.area <= 1000)])
-#print(rango1)
-#grupo1 = rango1.groupby(['PIT','PARROQUIA'])
-#print (grupo1)
-#valor_media= (grupo1.mean(['COD_PARR']))# calcula la media de cada campo numerico, esto es solo una forma de para poder sacar la agrupacion
-#os.system ("cls") 
-#print(valor_media)
 datos_df.to_csv('C:/visual_studio/salidas/predios_rangos.csv',index=True)# el directorio siempre se debe poner con este tipo
-
 
 # de barra / con \ da error  - True se debe poner para que el archivo ponga una etiqueta, en este caso la PARROQUIA , con FALSE
 #solo pone los campos numericos
