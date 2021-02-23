@@ -1,5 +1,5 @@
 #ESTE CODIGO LEE EL ARCHIVO PREDIOS_SHP , CREA COLUMNAS DE RANGO Y GRUPO Y LOS LLENA DE ACUERDO A LA 
-#LISTA DE CONDICIONES PARA EL CAMPO area. Funciona super bien
+#LISTA DE CONDICIONES PARA EL CAMPO area. Funciona super bien , puede salir error sin causa, pero es por los campos del shp original
 #Importa las librerias necesaria
 import geopandas as gp
 import matplotlib.pyplot as plt
