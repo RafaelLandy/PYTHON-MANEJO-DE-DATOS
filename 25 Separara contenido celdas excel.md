@@ -41,9 +41,6 @@ for name in lista_cod:
 
     df.to_csv('C:/visual_studio/salidas/determinantes_gina/%s.csv'% name,index = False,encoding='utf-8')# Graba archivo csv, es un archivo de transicion previo al resulatdo final
    
-      
-
-
  #BLOQUE PARA ABRIR CADA ARCHIVO CSV EMPEZAR A CAMBIAR Y GRABAR LOS CAMBIOS
  # SIRVE PARA ABRIR CADA ARCHIVO CSV Y ELIMINAR LAS COMILLAS, QUE HACE QUE EL CONTENIDO SALGA EN UNA SOLA CELDA, CUANDO SE BORRA ESTO Y AL GRABAR EN FORMATO XLSX LA INFORMACIÓN SE SEPARA POR CELDAS
 for name in lista_cod:
