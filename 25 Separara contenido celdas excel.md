@@ -1,4 +1,6 @@
 # PYHTON: SEPARAR  EN VARIAS CELDAS EL CONTENIDO QUE ESTÁ EN UNA SOLA CASILLA DE EXCEL PERO SEPARADOS POR SALTOS DE LINEA
+### Nota: este código esta dirigido a personas que tienen conocimientos básicos e intermedios de PYTHON.
+
 En este documento se explica cómo resolver un problema real, un problema ya de trabajo, a continuación en la primera imagen se explica cual es el problema, que información se dispone y en la segunda imagen a donde se desea llegar u obtener
 
 Imagen 01 de partida, se tiene información en cada celda, pero separado por salto de linea y se desea separar por celdas o filas de excel
@@ -12,7 +14,8 @@ Imagen 02 Lo que se desea, separar por celdas
 Sería posible resolver en el mismo Excel, de forma casi manual, copiando el contenido de cada celda en otra hoja, este proceso si separa cada línea por celdas diferentes, pero tomaría mucho tiempo hacer de una gran cantidad de datos, en este caso de 222 celdas, y que hablar de más de 1000 celdas. Para esto PYTHON es una herramienta poderosa.
 Como se puede apreciar la información esta en dos columnas "Codigo" y "Determinantes adicionales" , la primera es un identificador para cada fila, este código se realciona con unos sectores territoriales en este caso es de la cidad de Cuenca - Ecuador, no quiero entrar en detalles sobre la información porque lo importante es los datos que se disponen.
 
-Partiendo de esta información se ha escrito un código en Python y para una mejor compresión se comenta en algunas lineas
+Partiendo de esta información se ha escrito un código en Python y para una mejor compresión se comenta en algunas lineas.
+Lo escrito como una función o programa, es importante desde el inicio aprender a escribir nuestros codigos como funciones porque debemos ir acostumbrandonos a reciclar o reutilizar los códigos y eso se facilita si lo escribimos con la sintaxis de función , en donde se define los parametros o variables que utilizamos, en este caso es ruta_i se refiere a la ruta del archivo de inicio, ruta_s es la ruta de salida de los resultado del proceso, campo1 se refiere al campo o columna de nombre "Codigo" del archivo de inicio, campo 2 se refiere al nombre de la columna del archivo de inicio del cual vamos a extraer la información en este caso se llama 'Determinantes adicionales'.
 
 
 ```python
