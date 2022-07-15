@@ -152,4 +152,4 @@ Python ejecuta nuestro código línea por línea. Por cada línea de código est
  1. **Analizar (*parse* en inglés) el código** comprobando que formato y la sintaxis es correcta, es decir, que cumplen las normas establecidas para el lenguaje de progamación.
  2. **Traducir el código a bytecode** (instrucciones que nuestra máquina puede ejecutar).
  3. **Enviar el código para su ejecución** a la Python Virtual Machine(PVM), donde el código es ejecutado.
-![Esta es una imagen de ejemplo](https://www.kionetworks.com/hubfs/ALCHEMYLABS/Google-IMAGEN-project.jpg)
+![Esta es una imagen de ejemplo](D:/Datos/rlandy/Imágenes/argolla2.jpg)
