@@ -56,7 +56,7 @@ ingresa el 1 numero 50
 
 ingresa el 2 numero 60
 
-Luego imprime las siguintes salidas que se originan en el módulo ingreso_datos y adicion
+Luego imprime las siguientes salidas que se originan en el módulo ingreso_datos y adicion
 
 Para verificar 50 60
 
