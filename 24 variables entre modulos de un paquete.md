@@ -26,3 +26,25 @@ def defdatos():
 
 ```
  
+```python
+# adicion.py
+def suma():
+    from ingreso_datos import a, b #Del modulo igreso_datos importamos las variables a y be 
+    suma=a+b
+    print ("la suma es",suma)
+```
+##Finalmente en el archivo o modulo principal escribimos el códgio que nos permite ejecutar o interar entre los modulos y usar las variables
+
+```python
+#principal.py
+def main():
+    import ingreso_datos #importamos el modulo
+    import adicion #importamos el modulo
+    ingreso_datos.defdatos() # ejecutamos la función
+    adicion.suma()# ejecutamos la función
+
+    
+"""Ejecuto el programa principal"""   
+main()
+```
+
