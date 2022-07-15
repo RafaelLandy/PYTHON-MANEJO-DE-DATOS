@@ -10,7 +10,7 @@ Imagen de creación del directorio
 
 En el archivo __init__.py no se escribe ningún código, solo se crea ese archivo para que python reconozca a la carpeta como un paquete.
 
-"Los otros archivos deberán tener el siguiente código (usado como ejemplo)"
+"Los otros archivos deberán tener el siguiente código (usado como ejemplo) y se ha escrito una sola función para que la explicación sea sencilla"
 
 ## CONTENIDO DE CADA ARCHIVO
 
