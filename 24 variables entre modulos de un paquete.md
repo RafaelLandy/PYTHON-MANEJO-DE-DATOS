@@ -50,7 +50,7 @@ main()
 ```
 Al ejecutar este último código nos dara las siguientes salidas:
 
-En primer lugar nos pide los datos, 50 y 60 se igresa por teclado
+En primer lugar nos pide los datos, 50 y 60 se ingresa por teclado
 
 ingresa el 1 numero 50
 
