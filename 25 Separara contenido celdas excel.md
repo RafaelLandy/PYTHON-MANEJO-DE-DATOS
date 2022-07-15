@@ -5,6 +5,7 @@ Imagen 01 de partida
 ![](https://github.com/RafaelLandy/IMAGENES-DE-SOPORTE/blob/main/imagen%20excel%2001.png)
 
 Lo que se desea
+
 ![](https://github.com/RafaelLandy/IMAGENES-DE-SOPORTE/blob/main/imagen%20excel%2002.png)
 
 ## SOLUCION A ESTE “GRAN PROBLEMA”
