@@ -1,4 +1,4 @@
-# EXCEL SEPARAR  EL CONTENIDO QUE ESTA EN UNA SOLA CELDA PERO EN VARIAS LÍNEAS, EN CELDAS DIFERENTE
+# PYHTON: SEPARAR  EN VARIAS CELDAS EL CONTENIDO QUE ESTA EN UNA SOLA CASILLA DE EXCEL PERO SEPARADOS POR SALTOS DE LINEA
 En este documento se explica cómo resolver un problema real, un problema ya de trabajo, a continuación en la primera imagen se explica que cual es el problema, que información se dispone y en la segunda imagen a donde se desea llegar u obtener
 
 Imagen 01 de partida, se tiene información en cada celda, pero separado por salto de linea y se desea separar por celdas o filas de excel
