@@ -33,7 +33,7 @@ def suma():
     suma=a+b
     print ("la suma es",suma)
 ```
-##Finalmente en el archivo o modulo principal escribimos el códgio que nos permite ejecutar o interar entre los modulos y usar las variables
+## Finalmente en el archivo o modulo principal escribimos el códgio que nos permite ejecutar o interar entre los modulos y usar las variables
 
 ```python
 #principal.py
