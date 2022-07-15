@@ -61,4 +61,6 @@ Luego imprime las siguientes salidas que se originan en el módulo ingreso_datos
 
 ![](https://github.com/RafaelLandy/IMAGENES-DE-SOPORTE/blob/main/imagen%20salida.jpg)
 
-![](https://www.youtube.com/watch?v=qXzh_AGRvsw&t=331s)
+<iframe width="600" height = "420"
+src="https://www.youtube.com/embed/qKf2EwInKbA">
+</iframe>
