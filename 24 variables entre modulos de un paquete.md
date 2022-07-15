@@ -19,10 +19,10 @@ En el archivo __init__.py no se escribe ningún código, solo se crea ese archiv
 # ingreso_datos.py
 
 def defdatos():
-    global a
-    global b
-    a=int(input("ingresa el 1 numero"))
-    b=int(input("ingresa el 2 numero"))
+    global a #definimos a como variable global
+    global b #definimos b como variable global
+    a=int(input("ingresa el 1 numero")) # se solicita que se ingrese el primer numero
+    b=int(input("ingresa el 2 numero")) # se solicita que se ingrese el primer numero
     print("Para verificar",a,b)
 
 ```
