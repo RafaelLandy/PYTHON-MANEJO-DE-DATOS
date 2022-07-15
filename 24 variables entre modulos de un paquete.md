@@ -50,13 +50,13 @@ main()
 ```
 Al ejecutar este último código nos dara las siguientes salidas:
 
--En primer lugar nos pide los datos, 50 y 60 se ingresa por teclado
--ingresa el 1 numero 50
--ingresa el 2 numero 60
+- En primer lugar nos pide los datos, 50 y 60 se ingresa por teclado
+- ingresa el 1 numero 50
+- ingresa el 2 numero 60
 
 Luego imprime las siguientes salidas que se originan en el módulo ingreso_datos y adicion
 
--Para verificar 50 60
--la suma es 110
+- Para verificar 50 60
+- la suma es 110
 
 ![](https://github.com/RafaelLandy/IMAGENES-DE-SOPORTE/blob/main/imagen%20salida.jpg)
