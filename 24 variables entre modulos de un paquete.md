@@ -60,3 +60,5 @@ Luego imprime las siguientes salidas que se originan en el módulo ingreso_datos
 - la suma es 110
 
 ![](https://github.com/RafaelLandy/IMAGENES-DE-SOPORTE/blob/main/imagen%20salida.jpg)
+
+![](https://www.youtube.com/watch?v=qXzh_AGRvsw&t=331s)
