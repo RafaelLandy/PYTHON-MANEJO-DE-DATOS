@@ -61,5 +61,4 @@ Luego imprime las siguientes salidas que se originan en el módulo ingreso_datos
 
 ![](https://github.com/RafaelLandy/IMAGENES-DE-SOPORTE/blob/main/imagen%20salida.jpg)
 
-[![asciicast](https://asciinema.org/a/42383.png)](https://asciinema.org/a/42383)
 
