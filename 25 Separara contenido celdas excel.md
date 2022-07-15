@@ -69,4 +69,4 @@ for name in lista_cod:
 
 print("LISTO ")
 ```
-Finalmente los archivos creados por cada código se unen en una sola hoja de excel mediante un modulo llamado "RBDMerge", complemento que lo decargue de internet y lo instale en EXCEL. Es posible tambien crear un codigo PYTHON para unir los archivos xlsx pero bueno ya no lo hice y podría ser objeto de otra entrada.
+Finalmente los archivos creados por cada código se unen en una sola hoja de excel mediante un modulo llamado "RBDMerge", complemento que lo descargue de internet y lo instale en EXCEL. Es posible tambien crear un codigo PYTHON para unir los archivos xlsx pero bueno ya no lo hice y podría ser objeto de otra entrada.
