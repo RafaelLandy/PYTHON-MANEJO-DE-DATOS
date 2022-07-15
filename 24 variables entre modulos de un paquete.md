@@ -1,0 +1,28 @@
+# USO DE VARIABLES ENTRE MÓDULOS DE UN PAQUETE
+Este tutorial esta dirigido a documentar como se puede usar variables entre módulos de un paquete. Mediante el primer modulo creamos y asignamos valores a 2 variables para usar en un segundo modulo llamado adición, las funciones de cada modulo se ejecuta a traves del modulo principal.py"
+
+La clave del uso de las variables entre modulos de un paquete es el uso de la palabra reservada  \"global\" para definir variables globales.
+En primer lugar debemos crear el paquete, que es un directorio o carpeta con varios archivos .py que se denominan módulos y dentro de ellos estarán las funciones entoces creamos dentro de una carpeta los siguientes archivos __init__.py ; ingreso_datos.py; adicion.py; principal.py.
+
+![Esta es una imagen de ejemplo](https://github.com/RafaelLandy/Aprendiendo_arduino/blob/master/CONEXION%20DEL%20REGULADRO%20LM317.jpg)
+
+
+En el archivo __init__.py no se escribe ningún código, solo se crea ese archivo para que python reconozca a la carpeta como un paquete.
+
+"Los otros archivos deberán tener el siguiente código (usado como ejemplo)"
+
+## CONTENIDO DE CADA ARCHIVO
+
+
+```python
+# ingreso_datos.py
+
+def defdatos():
+    global a
+    global b
+    a=int(input("ingresa el 1 numero"))
+    b=int(input("ingresa el 2 numero"))
+    print("Para verificar",a,b)
+
+```
+ 
