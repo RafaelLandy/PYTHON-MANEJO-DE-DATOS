@@ -19,8 +19,6 @@ Lo he escrito como una función o programa, es importante desde el inicio aprend
 
 
 ```python
-# SEPARA EL CONTENIDO DE UNA CELDA EXCEL EN VARIAS 
-
 def separa_celdas(ruta_i, ruta_s_,campo1,campo2): #NOMBRAMOS LA FUNCION Y PONEMOS SUS PARAMETROS O VARIABLES
     #Importamos esta libreria básica
     import os
@@ -33,20 +31,18 @@ def separa_celdas(ruta_i, ruta_s_,campo1,campo2): #NOMBRAMOS LA FUNCION Y PONEMO
 
 
     archivo= pd.read_excel(ruta_i) # lee el archivo base con su ruta correspondiente
-
+    global lista_cod
     lista_cod= archivo[campo1].unique() #obtiene una lista por cada codigo, se utilza para trabajar en cada linea, por cada código
 
     # Bucle para leer cada fila según codigo y grabara un archivo csv por cada código
     for name in lista_cod:
-        fila= (archivo[archivo.Codigo== name]) 
+        fila= (archivo[archivo.Codigo== name])         
         df=pd.DataFrame()
-        
         df['det']=fila[campo2]
-        
-
         df.to_csv(ruta_s_+'/%s.csv'% name,index = False,encoding='utf-8')# Graba archivo csv, es un archivo de transicion previo al resulatdo final; + se pone para unir string
 
-    #BUCLE PARA ABRIR CADA ARCHIVO CSV EMPEZAR A CAMBIAR Y GRABAR LOS CAMBIOS
+
+     #BUCLE PARA ABRIR CADA ARCHIVO CSV EMPEZAR A CAMBIAR Y GRABAR LOS CAMBIOS
     # SIRVE PARA ABRIR CADA ARCHIVO CSV Y ELIMINAR LAS COMILLAS, QUE HACE QUE EL CONTENIDO SALGA EN UNA SOLA CELDA, CUANDO SE BORRA ESTO Y AL GRABAR EN FORMATO XLSX LA INFORMACIÓN SE SEPARA POR CELDAS
     for name in lista_cod:
 
@@ -57,7 +53,7 @@ def separa_celdas(ruta_i, ruta_s_,campo1,campo2): #NOMBRAMOS LA FUNCION Y PONEMO
             File.close()
             print(Mydata)
 
-        """MODIFICA EL ARCHIVO Y LO GRABA CON LOS CAMBIOS HECHOS"""
+       #MODIFICA EL ARCHIVO Y LO GRABA CON LOS CAMBIOS HECHOS
         ObjFichero = open(ruta_s_+'%s.csv'% name,'w',encoding='utf-8')
         MiNuevoTexto = Mydata
         ObjFichero.write(MiNuevoTexto)
@@ -66,13 +62,26 @@ def separa_celdas(ruta_i, ruta_s_,campo1,campo2): #NOMBRAMOS LA FUNCION Y PONEMO
         
 
         #Se abre el archivo modificado csv  , \t se pone como delimitador tab para finalmente grabar en formato xlsx
-        import pandas as pd
+        
         archivo= pd.read_csv(ruta_s_+'%s.csv'% name,delimiter ='\t' ,encoding='utf-8') 
         archivo['COD']=name
-        
         archivo.to_excel(ruta_s_+'%s.xlsx'% name, sheet_name=name) #genera un archivo xlsx por cada código y luego se podran unir estos archivos en una sola hoja de excel usando un script 
 
-    print("LISTO ")
+    "Bloque para concatenar o unir los archivos xlsx en un solo archivo"
+    df2=pd.DataFrame()
+    df2 = df2.assign(det=None,COD=None)   
+    
+    for name in lista_cod:
+        
+        df3=pd.read_excel(ruta_s_+'%s.xlsx'%name)
+        valores1=df2[['det','COD']]
+        valores2=df3[['det','COD']]
+        unido=[valores1,valores2]
+        sal=pd.concat(unido)
+        df2=sal
+    sal.to_excel(ruta_s+'RESULTADO.xlsx')
+        
+    print("LISTO ") 
 
 """BLOQUE PARA EJECUTAR LA FUNCIÓN - SE DEBE ESCRIBIR BIEN LAS RUTAS Y NOMBRES DE CAMPOS"""
 
