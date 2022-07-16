@@ -42,7 +42,7 @@ def separa_celdas(ruta_i, ruta_s_,campo1,campo2): #NOMBRAMOS LA FUNCION Y PONEMO
         df=pd.DataFrame()
         
         df['det']=fila[campo2]
-        deter=df['det'].unique()
+        
 
         df.to_csv(ruta_s_+'/%s.csv'% name,index = False,encoding='utf-8')# Graba archivo csv, es un archivo de transicion previo al resulatdo final; + se pone para unir string
 
