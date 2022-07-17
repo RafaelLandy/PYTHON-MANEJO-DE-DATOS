@@ -91,4 +91,4 @@ campo1='Codigo'
 campo2='Determinantes adicionales'
 separa_celdas(ruta_i, ruta_s,campo1,campo2)
 ```
-Finalmente los archivos creados por cada código se unen en una sola hoja de excel mediante un modulo llamado "RBDMerge", complemento que lo descargue de internet y lo instale en EXCEL. Es posible tambien crear un codigo PYTHON para unir los archivos xlsx pero bueno ya no lo hice y podría ser objeto de otra entrada.
+La concatenación de los archivos creados por cada código se unen en una sola hoja de excel mediante  una parte del código pytnon, pero también se puede unir en el mismo excel con un módulo llamado "RBDMerge", complemento que lo descargue de internet y lo instale en EXCEL, que igual permite concatenar de manera masiva varios archivos de xlsx.
