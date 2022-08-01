@@ -1,10 +1,12 @@
 # PYHTON: AUTOMATIZA WORD - GENERA INFORMES A PARTIR DE UNA TABLA EXCEL
 ### Nota: este código esta dirigido a personas que tienen conocimientos básicos e intermedios de PYTHON.
 
-En este documento se explica cómo resolver un problema real, generar informes a partir de datos de una tabla en excel, a continuación se comparte el código
+En este documento se comparte el código python para resolver un problema real, generar informes a partir de datos de una tabla en excel
 
 
 ```python
+# GENERA INFORME EN WORD
+# AUTOR: RAFAEL LANDY VAZQUEZ - Arq.
 # Importamos las ibrerias a utilizar
 import pandas as pd
 import docx
