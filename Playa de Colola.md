@@ -1,4 +1,6 @@
-﻿![](C:\visual_studio\salidas\informe_word\Playa de Colola.001.png)**
+﻿![](C://visual_studio/salidas/informe_word/Playa de Colola.001.png)
+ 
+ ![](https://github.com/RafaelLandy/IMAGENES-DE-SOPORTE/blob/main/imagen%20excel%2002.png)
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
