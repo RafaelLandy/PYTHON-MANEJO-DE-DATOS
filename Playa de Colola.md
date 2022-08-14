@@ -1,4 +1,4 @@
-﻿![](Playa%20de%20Colola.001.png)**CONSULTORA DE LA BIODIBERSIDAD                                                                                              ![](Playa%20de%20Colola.002.png)**
+﻿![](C:\visual_studio\salidas\informe_word\Playa de Colola.001.png)**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
